@@ -7,5 +7,6 @@
         "class": "#f38200"
       }
     }
-  }
+  },
+  "gitlens.codeLens.enabled": false
 }
