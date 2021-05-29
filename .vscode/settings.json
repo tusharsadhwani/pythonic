@@ -1,0 +1,11 @@
+{
+  "python.linting.mypyEnabled": false,
+  "bracket-pair-colorizer-2.colors": [],
+  "editor.semanticTokenColorCustomizations": {
+    "[Atom One Light]": {
+      "rules": {
+        "class": "#f38200"
+      }
+    }
+  }
+}
