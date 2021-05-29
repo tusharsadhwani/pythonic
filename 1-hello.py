@@ -1,6 +1,6 @@
 class Hello:
-    def __init__(self, message='Hello world!'):
-        self._message = message
+    def __init__(self, msg='Hello world!'):
+        self._message = msg
 
     @property
     def message(self):
