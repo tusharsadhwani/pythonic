@@ -8,5 +8,6 @@
       }
     }
   },
-  "gitlens.codeLens.enabled": false
+  "gitlens.codeLens.enabled": false,
+  "workbench.colorTheme": "Atom One Light"
 }
