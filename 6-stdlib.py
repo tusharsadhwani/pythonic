@@ -28,7 +28,7 @@ def time_it(func):
         after = time.time()
 
         duration = after - before
-        print('-- took %.2f seconds' % duration)
+        print(f'-- took {duration:.2f} seconds')
         print()
 
     return new_func
