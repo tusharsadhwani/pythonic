@@ -3,6 +3,7 @@
   "python.formatting.provider": "none",
   "editor.semanticTokenColorCustomizations": {
     "[Atom One Light]": {
+      "enabled": true,
       "rules": {
         "class": "#f38200"
       }
