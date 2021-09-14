@@ -39,13 +39,18 @@ class CLI:
         self.api = UserAPI()
         self.user_cache = []
 
+    def fetch_users(self, count):
+        if len(self.user_cache) >= count:
+            users = self.user_cache[:count]
+        else:
+            users = self.api.get_users(count)
+            self.user_cache = users
+        return users
+
+
     @time_it
     def print_user_names(self, num_users):
-        if len(self.user_cache) >= num_users:
-            users = self.user_cache[:num_users]
-        else:
-            users = self.api.get_users(num_users)
-            self.user_cache = users
+        users = self.fetch_users(num_users)
 
         for index, user in enumerate(users, start=1):
             print(index, '-', user['name']['first'])
