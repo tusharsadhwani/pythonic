@@ -47,7 +47,6 @@ class CLI:
             self.user_cache = users
         return users
 
-
     @time_it
     def print_user_names(self, num_users):
         users = self.fetch_users(num_users)
