@@ -1,6 +1,6 @@
 {
   "python.linting.mypyEnabled": false,
-  "bracket-pair-colorizer-2.colors": [],
+  "python.formatting.provider": "none",
   "editor.semanticTokenColorCustomizations": {
     "[Atom One Light]": {
       "rules": {
@@ -8,6 +8,7 @@
       }
     }
   },
+  "editor.bracketPairColorization.enabled": false,
   "gitlens.codeLens.enabled": false,
   "workbench.colorTheme": "Atom One Light"
 }
