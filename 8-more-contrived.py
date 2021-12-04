@@ -24,4 +24,4 @@ for index, line in enumerate(lines):
     lines[index] = line[:match.start()] + hex_value + line[match.end():]
 
 with open('test.html', 'w') as f:
-    html = f.writelines(lines)
+    f.writelines(lines)
